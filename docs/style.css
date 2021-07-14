@@ -640,18 +640,28 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
-a {
+a{
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #E3E3E3!important;
+}
+
+p{
+    color: #4D4D4D;
+}
+
+h2{
+    color: #353535;
+}
+
+.navbar-link{
+    color: black !important;
 }
 
 .container {
@@ -700,7 +710,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 490px;
     margin: auto auto auto auto;
 }
 
@@ -781,7 +791,7 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #E3E3E3!important;
 }
 
 .btn-atomic-tangerine {
@@ -792,6 +802,7 @@ h4 {
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
+    font-weight: 1000;
 }
 
 .ltc-white {
